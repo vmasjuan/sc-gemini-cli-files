@@ -38,6 +38,11 @@ gemini mcp add -t http canva https://mcp.canva.com/mcp
 
 ## Prompts
 
+> [!NOTE]
+> Make a copy of the "TechStack Brand Kit" Canva design in order to follow along with this lesson.
+> 
+> Here is the link: [TechStack Canva Template](https://www.canva.com/design/DAG--ZeGG9A/KTvs7EXJ2-wYAmOzm3J36g/view?mode=preview)
+
 ### Prompt 1: List Designs
 ```
 Can you list my most recent design?

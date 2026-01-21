@@ -1,10 +1,10 @@
 # **TechStack Conference 2026 Schedule**
 
-**Date:** March 2-4, 2026
+**Date:** November 20-22, 2026
 
 ## ---
 
-**Day 1: Wednesday, March 2, 2026**
+**Day 1: November 20, 2026**
 
 **08:00 AM - 09:00 AM: Registration & Breakfast**
 *Join us for coffee and pastries before the sessions begin.*
@@ -62,7 +62,7 @@
 
 ## ---
 
-**Day 2: Thursday, March 3, 2026**
+**Day 2: November 21, 2026**
 
 **08:30 AM - 09:30 AM: Breakfast**
 *Fuel up for the second day of the conference.*
@@ -114,7 +114,7 @@
 
 ## ---
 
-**Day 3: Friday, March 4, 2026**
+**Day 3: November 22, 2026**
 
 **08:30 AM - 09:30 AM: Breakfast**
 *Final day breakfast.*
