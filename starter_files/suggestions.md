@@ -7,6 +7,8 @@ These are suggestions for organizing a conference based on our experience with o
 *   **Budgeting:** Create a detailed budget with a 15-20% contingency fund.
 Unexpected costs (AV issues, rush printing) will probably arise.
 *   **Venue Selection:** We probably need to lock this down almost a year in advance?
+*   **Code of Conduct:** Establish and publish a clear code of conduct early. Have a process in place for handling violations to ensure a safe environment for everyone.
+*   **Sponsorship Strategy:** Define sponsorship tiers and reach out to partners 6-10 months in advance to secure funding for the event.
 
 ## 2. Content & Speakers
 *   **Diverse Lineup:** Actively seek speakers from varied backgrounds to ensure rich perspectives.
@@ -35,9 +37,11 @@ Water stations should be mixed throughout the venue.
 in lounge areas, not just session rooms.
 *   **Run of Show:** Have a minute-by-minute schedule for the AV team and
 stage managers.
+*   **Technical Rehearsals:** Conduct a full tech check of registration systems, streaming equipment, and AV setups 1-2 months before the event to catch glitches early.
 
 ## 5. Marketing & Engagement
 *   **Website:** The schedule and session catalog should be the easiest thing to find.
+*   **Mobile App:** Complement the website with a dedicated event app for real-time notifications, such as room changes or upcoming session reminders.
 *   **Social Media:** Create a unique hashtag and promote it early so you can engage with attendees and track socials.
 
 ## 6. Post-Event
