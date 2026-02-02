@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechStack Conference Lead Dashboard</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="dashboard-container">
+        <!-- Sidebar / Header -->
+        <header class="sidebar">
+            <div class="logo-container">
+                <img src="/static/logo.svg" alt="TechStack Conference Logo" class="logo">
+                <h1>Lead Intelligence</h1>
+            </div>
+            <nav>
+                <a href="#" class="active">Overview</a>
+                <a href="#">Reports</a>
+                <a href="#">Settings</a>
+            </nav>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Top Metrics -->
+            <div class="metrics-grid">
+                <div class="metric-card">
+                    <h3>Total Leads</h3>
+                    <p class="metric-value" id="total-leads">Loading...</p>
+                </div>
+                <div class="metric-card hot">
+                    <h3>Hot Leads</h3>
+                    <p class="metric-value" id="hot-leads">-</p>
+                </div>
+                <div class="metric-card warm">
+                    <h3>Warm Leads</h3>
+                    <p class="metric-value" id="warm-leads">-</p>
+                </div>
+                <div class="metric-card cold">
+                    <h3>Cold Leads</h3>
+                    <p class="metric-value" id="cold-leads">-</p>
+                </div>
+            </div>
+
+            <!-- Charts Row -->
+            <div class="charts-grid">
+                <div class="chart-card">
+                    <h3>Lead Segmentation</h3>
+                    <canvas id="segmentChart"></canvas>
+                </div>
+                <div class="chart-card">
+                    <h3>Top 5 Companies</h3>
+                    <canvas id="companyChart"></canvas>
+                </div>
+                <div class="chart-card">
+                    <h3>Top Countries</h3>
+                    <canvas id="countryChart"></canvas>
+                </div>
+            </div>
+
+            <!-- Data Table -->
+            <div class="table-card">
+                <div class="table-header">
+                    <h3>Lead Details</h3>
+                    <input type="text" id="searchInput" placeholder="Search leads...">
+                </div>
+                <div class="table-wrapper">
+                    <table id="leadsTable">
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Company</th>
+                                <th>Title</th>
+                                <th>Country</th>
+                                <th>Score</th>
+                                <th>Segment</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- Rows will be populated by JS -->
+                        </tbody>
+                    </table>
+                </div>
+                <div class="pagination">
+                    <button id="prevBtn" disabled>Previous</button>
+                    <span id="pageInfo">Page 1</span>
+                    <button id="nextBtn">Next</button>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>
